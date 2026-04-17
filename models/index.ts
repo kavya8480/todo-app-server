@@ -1,9 +1,9 @@
-const sequelize = require('./db');
+import { sequelize } from "./db";
 
 // Import all models
-const User = require('./user');
-const Task = require('./task');
-const UserTask = require('./user_task');
+import {User}  from "./user";
+import {Task}  from "./task";
+import {UserTask} from "./user_task";
 
 // Associations
 // User -> UserTask
@@ -29,13 +29,4 @@ UserTask.belongsTo(Task, {
     foreignKey: 'task_id',
     as: 'task'
 });
-
-
-// Export everything
-
-module.exports = {
-    sequelize,
-    User,
-    Task,
-    UserTask
-};
+export { sequelize, User, Task, UserTask };

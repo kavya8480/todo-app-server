@@ -1,8 +1,8 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('./db');
+import { DataTypes } from "sequelize";
+import {sequelize} from "./db";
 // const UserTask = require('./user_task');
 
-const User = sequelize.define('user', {
+export const User = sequelize.define('user', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -24,10 +24,3 @@ const User = sequelize.define('user', {
     tableName: 'user',
     timestamps: true
 });
-
-// User.hasMany(UserTask, {
-//     foreignKey: 'user_id',
-//     as: 'tasks'
-// });
-
-module.exports = User;

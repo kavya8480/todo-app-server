@@ -1,8 +1,9 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('./db');
-const UserTask = require('./user_task');
+import {sequelize} from "./db";
 
-const Task = sequelize.define('task', {
+import {DataTypes}  from "sequelize";
+import {UserTask} from "./user_task";
+
+export const Task = sequelize.define('task', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -26,4 +27,4 @@ const Task = sequelize.define('task', {
 //     as: 'tasks'
 // });
 
-module.exports = Task;
+export default Task;
