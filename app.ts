@@ -2,13 +2,14 @@ import express, { Application } from "express";
 import {router} from "./route/index";
 import { sequelize } from "./models";
 import logger from "./logger";
-
+import dotenv from 'dotenv';
 const app: Application = express();
 const port: number = 3000;
 
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+dotenv.config();
 
 // Routes
 app.use("/", router);  //router - API path

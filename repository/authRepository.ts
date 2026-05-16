@@ -14,7 +14,11 @@ export async function LoginRepository(request: LoginRequest) {
     if (!user) return false;
 
     const isMatch = await bcrypt.compare(request.password, user.password);
-    return isMatch;
+    if (isMatch){
+        return user.external_id;
+    }else {
+        return "" ;
+    }
 }
 
 export async function RegisterRepository(request: RegistrationRequest) {

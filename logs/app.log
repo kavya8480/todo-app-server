@@ -11,3 +11,63 @@
 08-05-2026 11:43 AM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
 08-05-2026 11:43 AM : info: Inside RegisterUsecase
 08-05-2026 11:43 AM : debug: Hashed value is 
+08-05-2026 11:46 AM : info: MySQL connection established successfully.
+13-05-2026 06:05 PM : info: MySQL connection established successfully.
+13-05-2026 06:06 PM : info: Inside Register controller
+13-05-2026 06:06 PM : debug: Got the request body for the api call
+13-05-2026 06:06 PM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+13-05-2026 06:06 PM : info: Inside RegisterUsecase
+13-05-2026 06:06 PM : debug: Hashed value is 
+13-05-2026 06:06 PM : info: MySQL connection established successfully.
+13-05-2026 06:08 PM : info: MySQL connection established successfully.
+13-05-2026 06:08 PM : info: Inside Register controller
+13-05-2026 06:08 PM : debug: Got the request body for the api call
+13-05-2026 06:08 PM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+13-05-2026 06:08 PM : info: Inside RegisterUsecase
+13-05-2026 06:08 PM : debug: Hashed value is 
+13-05-2026 06:08 PM : info: MySQL connection established successfully.
+
+
+
+13-05-2026 06:08 PM : info: Inside Register controller
+13-05-2026 06:08 PM : debug: Got the request body for the api call
+13-05-2026 06:08 PM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+13-05-2026 06:08 PM : info: Inside RegisterUsecase
+13-05-2026 06:08 PM : info: Hashed value is 
+13-05-2026 06:09 PM : info: MySQL connection established successfully.
+13-05-2026 06:09 PM : info: MySQL connection established successfully.
+13-05-2026 06:09 PM : info: MySQL connection established successfully.
+13-05-2026 06:09 PM : info: Inside Register controller
+13-05-2026 06:09 PM : debug: Got the request body for the api call
+13-05-2026 06:09 PM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+13-05-2026 06:09 PM : info: Inside RegisterUsecase
+13-05-2026 06:09 PM : info: Hashed value is $2b$10$7m2HY4jy4PlBQkgDlDTQLuIXhET5/CZjdd6uHRg98NJnM.mgYzxlG
+13-05-2026 06:12 PM : info: Inside login controller
+13-05-2026 06:12 PM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+13-05-2026 06:12 PM : info: Inside LoginRepository
+16-05-2026 11:08 AM : info: MySQL connection established successfully.
+16-05-2026 11:08 AM : info: Inside login controller
+16-05-2026 11:08 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+16-05-2026 11:08 AM : info: Inside LoginRepository
+16-05-2026 11:08 AM : info: ACCESSTOKENSECRET
+16-05-2026 11:08 AM : info: Token created successfully
+16-05-2026 11:08 AM : info: Token created successfully
+16-05-2026 11:08 AM : info: Login successful
+16-05-2026 11:10 AM : info: MySQL connection established successfully.
+16-05-2026 11:10 AM : info: MySQL connection established successfully.
+16-05-2026 11:10 AM : info: Inside login controller
+16-05-2026 11:10 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+16-05-2026 11:10 AM : info: Inside LoginRepository
+16-05-2026 11:10 AM : info: ACCESSTOKENSECRET
+16-05-2026 11:10 AM : info: Token created successfullyeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjpmYWxzZSwiaWF0IjoxNzc4OTEwMDQ2LCJleHAiOjE3Nzg5MTAxNjZ9.ELHbx-biBdb-023qDUHGVgTtFL8QlFMxAEVgRiWO7CU
+16-05-2026 11:10 AM : info: Token created successfullyeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjpmYWxzZSwiaWF0IjoxNzc4OTEwMDQ2LCJleHAiOjE3Nzg5MTE4NDZ9.3Uzo7q7TRz0M7xxn9WXbnUQ7tiQVQEKc2ry_EzDgmUc
+16-05-2026 11:10 AM : info: Login successful
+16-05-2026 11:11 AM : info: MySQL connection established successfully.
+16-05-2026 11:11 AM : info: MySQL connection established successfully.
+16-05-2026 11:11 AM : info: Inside login controller
+16-05-2026 11:11 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+16-05-2026 11:11 AM : info: Inside LoginRepository
+16-05-2026 11:11 AM : info: ACCESSTOKENSECRET
+16-05-2026 11:11 AM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjpmYWxzZSwiaWF0IjoxNzc4OTEwMDkzLCJleHAiOjE3Nzg5MTAyMTN9.WnvFkWO3vLP3lqW-2gqUUHNIsufMJ67DsTT-4QOqhZk
+16-05-2026 11:11 AM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjpmYWxzZSwiaWF0IjoxNzc4OTEwMDkzLCJleHAiOjE3Nzg5MTE4OTN9.n4KLes_jbPbipqFxGoTtVyD4UBug_sGtIdpenxtkGn4
+16-05-2026 11:11 AM : info: Login successful

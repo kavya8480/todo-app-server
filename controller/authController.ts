@@ -14,7 +14,8 @@ export async function Login(req:Request, res:Response) {
         res.send("Incorrect email or password");
     } else {
         logger.info("Login successful")
-        res.send("Login successful");
+       res.send(usecaseResponse);
+
     }
 }
 
