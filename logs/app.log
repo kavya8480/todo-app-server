@@ -1,0 +1,13 @@
+08-05-2026 11:34 AM : info: Inside login controller
+08-05-2026 11:34 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+08-05-2026 11:34 AM : info: Inside LoginRepository
+08-05-2026 11:37 AM : info: Inside login controller
+08-05-2026 11:37 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+08-05-2026 11:37 AM : info: Inside LoginRepository
+08-05-2026 11:43 AM : info: MySQL connection established successfully.
+08-05-2026 11:43 AM : info: MySQL connection established successfully.
+08-05-2026 11:43 AM : info: Inside Register controller
+08-05-2026 11:43 AM : debug: Got the request body for the api call
+08-05-2026 11:43 AM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
+08-05-2026 11:43 AM : info: Inside RegisterUsecase
+08-05-2026 11:43 AM : debug: Hashed value is 
