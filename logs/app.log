@@ -1,73 +1,105 @@
-08-05-2026 11:34 AM : info: Inside login controller
-08-05-2026 11:34 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-08-05-2026 11:34 AM : info: Inside LoginRepository
-08-05-2026 11:37 AM : info: Inside login controller
-08-05-2026 11:37 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-08-05-2026 11:37 AM : info: Inside LoginRepository
-08-05-2026 11:43 AM : info: MySQL connection established successfully.
-08-05-2026 11:43 AM : info: MySQL connection established successfully.
-08-05-2026 11:43 AM : info: Inside Register controller
-08-05-2026 11:43 AM : debug: Got the request body for the api call
-08-05-2026 11:43 AM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-08-05-2026 11:43 AM : info: Inside RegisterUsecase
-08-05-2026 11:43 AM : debug: Hashed value is 
-08-05-2026 11:46 AM : info: MySQL connection established successfully.
-13-05-2026 06:05 PM : info: MySQL connection established successfully.
-13-05-2026 06:06 PM : info: Inside Register controller
-13-05-2026 06:06 PM : debug: Got the request body for the api call
-13-05-2026 06:06 PM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-13-05-2026 06:06 PM : info: Inside RegisterUsecase
-13-05-2026 06:06 PM : debug: Hashed value is 
-13-05-2026 06:06 PM : info: MySQL connection established successfully.
-13-05-2026 06:08 PM : info: MySQL connection established successfully.
-13-05-2026 06:08 PM : info: Inside Register controller
-13-05-2026 06:08 PM : debug: Got the request body for the api call
-13-05-2026 06:08 PM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-13-05-2026 06:08 PM : info: Inside RegisterUsecase
-13-05-2026 06:08 PM : debug: Hashed value is 
-13-05-2026 06:08 PM : info: MySQL connection established successfully.
-
-
-
-13-05-2026 06:08 PM : info: Inside Register controller
-13-05-2026 06:08 PM : debug: Got the request body for the api call
-13-05-2026 06:08 PM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-13-05-2026 06:08 PM : info: Inside RegisterUsecase
-13-05-2026 06:08 PM : info: Hashed value is 
-13-05-2026 06:09 PM : info: MySQL connection established successfully.
-13-05-2026 06:09 PM : info: MySQL connection established successfully.
-13-05-2026 06:09 PM : info: MySQL connection established successfully.
-13-05-2026 06:09 PM : info: Inside Register controller
-13-05-2026 06:09 PM : debug: Got the request body for the api call
-13-05-2026 06:09 PM : debug: after mapping to the user request {"firstName":"kavya","lastName":"das","email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-13-05-2026 06:09 PM : info: Inside RegisterUsecase
-13-05-2026 06:09 PM : info: Hashed value is $2b$10$7m2HY4jy4PlBQkgDlDTQLuIXhET5/CZjdd6uHRg98NJnM.mgYzxlG
-13-05-2026 06:12 PM : info: Inside login controller
-13-05-2026 06:12 PM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-13-05-2026 06:12 PM : info: Inside LoginRepository
-16-05-2026 11:08 AM : info: MySQL connection established successfully.
-16-05-2026 11:08 AM : info: Inside login controller
-16-05-2026 11:08 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-16-05-2026 11:08 AM : info: Inside LoginRepository
-16-05-2026 11:08 AM : info: ACCESSTOKENSECRET
-16-05-2026 11:08 AM : info: Token created successfully
-16-05-2026 11:08 AM : info: Token created successfully
-16-05-2026 11:08 AM : info: Login successful
-16-05-2026 11:10 AM : info: MySQL connection established successfully.
-16-05-2026 11:10 AM : info: MySQL connection established successfully.
-16-05-2026 11:10 AM : info: Inside login controller
-16-05-2026 11:10 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-16-05-2026 11:10 AM : info: Inside LoginRepository
-16-05-2026 11:10 AM : info: ACCESSTOKENSECRET
-16-05-2026 11:10 AM : info: Token created successfullyeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjpmYWxzZSwiaWF0IjoxNzc4OTEwMDQ2LCJleHAiOjE3Nzg5MTAxNjZ9.ELHbx-biBdb-023qDUHGVgTtFL8QlFMxAEVgRiWO7CU
-16-05-2026 11:10 AM : info: Token created successfullyeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjpmYWxzZSwiaWF0IjoxNzc4OTEwMDQ2LCJleHAiOjE3Nzg5MTE4NDZ9.3Uzo7q7TRz0M7xxn9WXbnUQ7tiQVQEKc2ry_EzDgmUc
-16-05-2026 11:10 AM : info: Login successful
-16-05-2026 11:11 AM : info: MySQL connection established successfully.
-16-05-2026 11:11 AM : info: MySQL connection established successfully.
-16-05-2026 11:11 AM : info: Inside login controller
-16-05-2026 11:11 AM : debug: after mapping to the user request {"email":"tapa1234@gmail.com","password":"Tapaswinidas@G"}
-16-05-2026 11:11 AM : info: Inside LoginRepository
-16-05-2026 11:11 AM : info: ACCESSTOKENSECRET
-16-05-2026 11:11 AM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjpmYWxzZSwiaWF0IjoxNzc4OTEwMDkzLCJleHAiOjE3Nzg5MTAyMTN9.WnvFkWO3vLP3lqW-2gqUUHNIsufMJ67DsTT-4QOqhZk
-16-05-2026 11:11 AM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjpmYWxzZSwiaWF0IjoxNzc4OTEwMDkzLCJleHAiOjE3Nzg5MTE4OTN9.n4KLes_jbPbipqFxGoTtVyD4UBug_sGtIdpenxtkGn4
-16-05-2026 11:11 AM : info: Login successful
+23-05-2026 06:09 PM : debug: Getting all task succesfully {"0":{"external_id":"zmavdbwpay","name":"Update Frontend Practice Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z"},"1":{"external_id":"rgwgwvdkdq","name":"Practice Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z"},"2":{"external_id":"cnffydqnkf","name":"frontend Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z"}}
+23-05-2026 06:09 PM : info: Got the task in controller : {"0":{"external_id":"zmavdbwpay","name":"Update Frontend Practice Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z"},"1":{"external_id":"rgwgwvdkdq","name":"Practice Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z"},"2":{"external_id":"cnffydqnkf","name":"frontend Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z"}}
+23-05-2026 06:33 PM : info: MySQL connection established successfully.
+23-05-2026 06:34 PM : info: MySQL connection established successfully.
+23-05-2026 06:37 PM : info: MySQL connection established successfully.
+23-05-2026 06:37 PM : info: MySQL connection established successfully.
+23-05-2026 06:37 PM : info: MySQL connection established successfully.
+23-05-2026 06:37 PM : debug: Task Details with externalId 
+23-05-2026 06:39 PM : info: MySQL connection established successfully.
+23-05-2026 06:39 PM : info: MySQL connection established successfully.
+23-05-2026 06:39 PM : info: MySQL connection established successfully.
+23-05-2026 06:39 PM : info: MySQL connection established successfully.
+23-05-2026 06:39 PM : info: MySQL connection established successfully.
+23-05-2026 06:40 PM : info: MySQL connection established successfully.
+23-05-2026 06:40 PM : info: MySQL connection established successfully.
+23-05-2026 06:40 PM : debug: Task Details with externalId
+23-05-2026 06:41 PM : info: MySQL connection established successfully.
+23-05-2026 06:41 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 07:49 PM : info: MySQL connection established successfully.
+23-05-2026 07:49 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 07:50 PM : info: MySQL connection established successfully.
+23-05-2026 07:50 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 07:53 PM : info: MySQL connection established successfully.
+23-05-2026 07:53 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 07:53 PM : info: MySQL connection established successfully.
+23-05-2026 07:53 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 07:55 PM : info: MySQL connection established successfully.
+23-05-2026 07:55 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 07:56 PM : info: MySQL connection established successfully.
+23-05-2026 07:56 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 07:57 PM : info: MySQL connection established successfully.
+23-05-2026 07:57 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 08:01 PM : info: MySQL connection established successfully.
+23-05-2026 08:01 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 08:01 PM : info: MySQL connection established successfully.
+23-05-2026 08:01 PM : error: Error
+    at Query.run (D:\todo-app-server\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\todo-app-server\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async user.sync (D:\todo-app-server\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (D:\todo-app-server\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeDatabaseError","parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sqlState":"42000","sqlMessage":"Too many keys specified; max 64 keys allowed","sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;"},"sql":"ALTER TABLE `user` CHANGE `external_id` `external_id` VARCHAR(255) UNIQUE;","parameters":{}}
+23-05-2026 08:02 PM : info: MySQL connection established successfully.
+23-05-2026 08:02 PM : debug: Task Details with externalId
+23-05-2026 08:02 PM : debug: Getting all task succesfully
+23-05-2026 08:02 PM : info: Got the task details in controller:
+23-05-2026 08:04 PM : info: Inside task create controller
+23-05-2026 08:04 PM : debug: after mapping to the task request {"name":"frontend Module","description":" redesign responsive login","due_date":"2026-06-10","notes":"Add validation, animations"}
+23-05-2026 08:04 PM : info: Inside Task Repository
+23-05-2026 08:04 PM : debug: Task Created successfully {"external_id":"kswfpfzvig","name":"frontend Module","description":" redesign responsive login","due_date":"2026-06-10","notes":"Add validation, animations","status":"Active"}
+23-05-2026 08:04 PM : info: Inside task create controller
+23-05-2026 08:04 PM : debug: after mapping to the task request {"name":"frontend Module","description":" redesign responsive login","due_date":"2026-06-11","notes":"Add validation"}
+23-05-2026 08:04 PM : info: Inside Task Repository
+23-05-2026 08:04 PM : debug: Task Created successfully {"external_id":"cxumbmuohe","name":"frontend Module","description":" redesign responsive login","due_date":"2026-06-11","notes":"Add validation","status":"Active"}
+23-05-2026 08:04 PM : info: Inside task create controller
+23-05-2026 08:04 PM : debug: after mapping to the task request {"name":"frontend Module","description":" redesign responsive","due_date":"2026-06-11","notes":"Add validation"}
+23-05-2026 08:04 PM : info: Inside Task Repository
+23-05-2026 08:04 PM : debug: Task Created successfully {"external_id":"dabxgziueq","name":"frontend Module","description":" redesign responsive","due_date":"2026-06-11","notes":"Add validation","status":"Active"}
+23-05-2026 08:05 PM : debug: Task Details with externalId
+23-05-2026 08:05 PM : debug: Getting all task succesfully {"dataValues":{"external_id":"kswfpfzvig","name":"frontend Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z","createdBy":null,"updatedBy":null,"createdAt":"2026-05-23T14:34:32.000Z","updatedAt":"2026-05-23T14:34:32.000Z"},"_previousDataValues":{"external_id":"kswfpfzvig","name":"frontend Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z","createdBy":null,"updatedBy":null,"createdAt":"2026-05-23T14:34:32.000Z","updatedAt":"2026-05-23T14:34:32.000Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["external_id","name","description","notes","due_date","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+23-05-2026 08:05 PM : info: Got the task details in controller: {"dataValues":{"external_id":"kswfpfzvig","name":"frontend Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z","createdBy":null,"updatedBy":null,"createdAt":"2026-05-23T14:34:32.000Z","updatedAt":"2026-05-23T14:34:32.000Z"},"_previousDataValues":{"external_id":"kswfpfzvig","name":"frontend Module","description":" redesign responsive login","notes":"Add validation, animations","due_date":"2026-06-10T00:00:00.000Z","createdBy":null,"updatedBy":null,"createdAt":"2026-05-23T14:34:32.000Z","updatedAt":"2026-05-23T14:34:32.000Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["external_id","name","description","notes","due_date","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}

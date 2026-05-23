@@ -2,7 +2,7 @@ import { HashRequest, LoginRequest, RegistrationRequest } from "../Domain/authDo
 import logger from "../logger";
 import { EmailCheck, generateRandomString, LoginRepository, RegisterRepository } from "../repository/authRepository";
 import bcrypt from "bcrypt";
-// import jwt from "jsonwebtoken";
+// import jwt from 'jsonwebtoken';
 const jwt = require("jsonwebtoken");
 
 

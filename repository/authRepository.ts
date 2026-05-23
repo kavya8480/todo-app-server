@@ -40,12 +40,12 @@ export async function RegisterRepository(request: RegistrationRequest) {
         password: request.password,
         status: "Active",
     }
+
     // Table insert
     await User.create(userObject);
-    logger.debug("User Created successfully", userObject);
+    logger.debug("User Created successfully", + userObject);
     return true;
 }
-
 
 export async function EmailCheck(email: string) {
     const users = await User.findAll({

@@ -1,7 +1,6 @@
 import {sequelize} from "./db";
-
 import {DataTypes}  from "sequelize";
-import {UserTask} from "./user_task";
+// import {UserTask} from "./user_task";
 
 export const Task = sequelize.define('task', {
     id: {
@@ -13,8 +12,17 @@ export const Task = sequelize.define('task', {
     name: DataTypes.STRING,
     description: DataTypes.STRING,
     status: DataTypes.STRING,
-    createdAt: DataTypes.TIME,
-    updatedAt: DataTypes.TIME,
+    due_date : DataTypes.DATE,
+    notes: DataTypes.STRING,
+    createdAt: {
+        type: DataTypes.DATE,
+        defaultValue: DataTypes.NOW,
+    },
+    updatedAt: {
+        type: DataTypes.DATE,
+        defaultValue: DataTypes.NOW,
+    },
+
     createdBy: DataTypes.INTEGER,
     updatedBy: DataTypes.INTEGER,
 }, {

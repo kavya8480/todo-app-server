@@ -21,7 +21,7 @@ const startServer = async (): Promise<void> => {
         console.log("MySQL connection established successfully.");
         logger.info("MySQL connection established successfully.");
 
-        await sequelize.sync({ force: true });
+        await sequelize.sync({ alter: true });
 
         app.listen(port, () => {
             console.log(`Server listening on port ${port}`);
