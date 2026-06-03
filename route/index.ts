@@ -1,7 +1,7 @@
+import { Router } from "express";
 import { authRouter } from "./auth";
 import { userRouter } from "./users";
 import {taskRouter} from "./task";
-import { Router } from "express";
 
 export let router = Router();
 

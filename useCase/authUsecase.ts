@@ -12,8 +12,10 @@ export async function LoginUsecase(request: LoginRequest) {
         return false;
     } else {
         let user_obj = {
-            "externalId": user
+            "externalId": user.external_id,
+            "email":user.email,
         }
+
         let accessTokenSecret = process.env.ACCESSTOKENSECRET;
         logger.info("ACCESSTOKENSECRET", process.env.ACCESSTOKENSECRET)
         const accessToken = jwt.sign(user_obj, accessTokenSecret, {
@@ -51,7 +53,7 @@ export async function RegisterUsecase(request: RegistrationRequest) {
         console.log("hashed value:", hashedPassword);
         logger.info("Hashed value is "+ hashedPassword);
         request.password = hashedPassword;
-        RegisterRepository(request)
+        RegisterRepository(request);
     }
 
 }

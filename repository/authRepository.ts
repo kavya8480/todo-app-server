@@ -11,11 +11,11 @@ export async function LoginRepository(request: LoginRequest) {
         where: { email: request.email },
     });
 
-    if (!user) return false;
+    if (!user) return "";
 
     const isMatch = await bcrypt.compare(request.password, user.password);
     if (isMatch){
-        return user.external_id;
+        return user;
     }else {
         return "" ;
     }
@@ -29,8 +29,9 @@ export async function RegisterRepository(request: RegistrationRequest) {
         const record = await User.findOne({
             where: { external_id: externalId },
         });
-        exists ==!record;
+        exists = !!record;
     }
+    
     let userObject = {
         external_id: externalId,
         first_name: request.firstName,

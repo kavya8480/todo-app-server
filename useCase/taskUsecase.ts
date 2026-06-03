@@ -1,6 +1,4 @@
 import { CreateTaskRequest, UpdateTaskRequest } from "../Domain/taskDomain";
-import logger from "../logger";
-import { Task } from "../models";
 import { CreatetTaskRepository, DeleteTaskRepository, GetAllTaskRepository, TaskDetailsRepository, UpdateTaskRepository} from "../repository/taskRepository";
 
 export async function CreateTaskUsecase(request: CreateTaskRequest) {

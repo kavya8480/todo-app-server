@@ -1,9 +1,7 @@
 import { Request, Response } from "express";
 import  logger  from "..//logger";
 import { CreateTaskRequest, UpdateTaskRequest } from "../Domain/taskDomain" ;
-import { CreatetTaskRepository } from "../repository/taskRepository";
 import { CreateTaskUsecase, DeleteTaskUsecase, GetAllTaskUsecase, TaskDetailsUsecase, UpdateTaskUsecase } from "../useCase/taskUsecase";
-import { Task } from "../models";
 
 
 export async function CreateTask(req:Request,res:Response) {
@@ -18,7 +16,7 @@ export async function CreateTask(req:Request,res:Response) {
     logger.debug("after mapping to the task request", request);
 
     let response = await CreateTaskUsecase(request);
-    //  CreatetTaskRepository(request);
+    
 
 if(response) {
     return res.send(response);
@@ -28,6 +26,7 @@ return res.send({
     message: "Task Creation failed"
 });
 }
+
 
  export async function DeleteTask(req:Request, res:Response) {
     console.log("Delete task in controller");
@@ -79,5 +78,11 @@ let externalId = req.params.task_ext_id as string;
 logger.debug("Task Details with externalId", externalId)
 let response = await TaskDetailsUsecase(externalId);
 logger.info("Got the task details in controller:", response);
-res.send({"Task Details": response});
+if(response) {
+    return res.send(response);
+}
+
+return res.send({
+    message: "Task Not Found"
+});
 }

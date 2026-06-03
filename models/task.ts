@@ -1,6 +1,6 @@
 import {sequelize} from "./db";
 import {DataTypes}  from "sequelize";
-// import {UserTask} from "./user_task";
+import {UserTask} from "./user_task";
 
 export const Task = sequelize.define('task', {
     id: {
@@ -30,9 +30,9 @@ export const Task = sequelize.define('task', {
     timestamps: true
 });
 
-// Task.hasMany(UserTask, {
-//     foreignKey: 'task_id',
-//     as: 'tasks'
-// });
+Task.hasMany(UserTask, {
+    foreignKey: 'task_id',
+    as: 'tasks'
+});
 
 export default Task;
