@@ -13,19 +13,22 @@ export interface TaskTableAttributes {
 }
 
 export interface CreateTaskRequest {
+    priority: any;
+    status: any;
     name:string;
     description:string;
     due_date:Date;
     notes:string
 }
 
-export interface UpdateTaskRequest{
-    external_id:string;
-    name:string;
-    description:string;
-    due_date:Date;
-    notes:string;
-    status:string;
+export interface UpdateTaskRequest {
+    external_id: string;
+    name: string;
+    description: string;
+    notes: string;
+    due_date: string;
+    status: string;
+    priority: string;
 }
 export interface TaskDetailsRequest{
    external_id: string;

@@ -12,6 +12,7 @@ export async function CreateTask(req:Request,res:Response) {
     request.description = req.body.description;
     request.due_date = req.body.due_date;
     request.notes = req.body.notes;
+    
 
     logger.debug("after mapping to the task request", request);
 

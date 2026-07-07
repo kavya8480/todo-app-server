@@ -9,31 +9,36 @@ import { generateRandomString } from "./authRepository";
 export async function CreatetTaskRepository(request: CreateTaskRequest) {
     console.log("INSIDE REPOSITORY");
 
-    logger.info("Inside Task Repository");
-
-    let externalId: string = "";
+    let externalId = "";
     let exists = true;
+
     while (exists) {
         externalId = generateRandomString(10);
+
         const record = await Task.findOne({
-            where: { external_id: externalId },
+            where: {
+                external_id: externalId
+            }
         });
+
         exists = !!record;
     }
-    console.log("table creation");
 
-    let taskObject = {
+    const taskObject = {
         external_id: externalId,
         name: request.name,
         description: request.description,
         due_date: request.due_date,
         notes: request.notes,
-        status: "Active",
-    }
-    // Table insert
+        status: "Active"
+    };
+
     await Task.create(taskObject);
-    logger.debug("Task Created successfully", taskObject);
-    return { "message": "Task created Successfully" };
+
+    return {
+        message: "Task created successfully",
+        task: taskObject
+    };
 }
 
 export async function DeleteTaskRepository(external_id: string) {
@@ -58,7 +63,8 @@ export async function UpdateTaskRepository(request: UpdateTaskRequest) {
         description: request.description,
         due_date: request.due_date,
         notes: request.notes,
-        status: request.status
+        status: request.status,
+        priority: request.priority
     }
 
     await Task.update(UpdateTaskObject,
@@ -81,7 +87,10 @@ export async function GetAllTaskRepository() {
             "name",
             "description",
             "notes",
-            "due_date"
+            "due_date",
+            "status",
+            "priority"
+
         ]
     });
 
