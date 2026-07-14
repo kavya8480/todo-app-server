@@ -1,9 +1,13 @@
 import { Router, Request, Response, NextFunction } from "express";
 export let authRouter = Router();
-import { Login, Register } from "../controller/authController"
+import { Login, Refresh, Register } from "../controller/authController"
 
 authRouter.post('/login', function (req: Request, res: Response, next: NextFunction) {
   Login(req, res);
+});
+
+authRouter.post('/refresh', function (req: Request, res: Response, next: NextFunction) {
+  Refresh(req, res);
 });
 
 authRouter.post('/register', function (req: Request, res: Response, next: NextFunction) {

@@ -30,7 +30,8 @@ export async function CreatetTaskRepository(request: CreateTaskRequest) {
         description: request.description,
         due_date: request.due_date,
         notes: request.notes,
-        status: "Active"
+        status: "Active",
+        priority: request.priority, 
     };
 
     await Task.create(taskObject);
@@ -89,7 +90,7 @@ export async function GetAllTaskRepository() {
             "notes",
             "due_date",
             "status",
-            "priority"
+            "priority",
 
         ]
     });

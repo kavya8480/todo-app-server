@@ -12,6 +12,8 @@ export async function CreateTask(req:Request,res:Response) {
     request.description = req.body.description;
     request.due_date = req.body.due_date;
     request.notes = req.body.notes;
+    request.priority = req.body.priority;
+request.status = req.body.status;
     
 
     logger.debug("after mapping to the task request", request);
@@ -55,6 +57,7 @@ request.external_id= req.params.task_ext_id as string;
     request.due_date = req.body.due_date;
     request.notes = req.body.notes;
     request.status= req.body.status;
+    request.priority = req.body.priority;
     let response = await UpdateTaskUsecase(request);
 
     if(response) {

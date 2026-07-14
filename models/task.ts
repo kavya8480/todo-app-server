@@ -25,7 +25,11 @@ export const Task = sequelize.define('task', {
 
     createdBy: DataTypes.INTEGER,
     updatedBy: DataTypes.INTEGER,
-}, {
+
+    priority:DataTypes.STRING,
+}, 
+
+{
     tableName: 'task',
     timestamps: true
 });

@@ -10,6 +10,7 @@ export interface TaskTableAttributes {
     updatedBy:string;
     createdAt: Date;
     updatedAt: Date;
+    priority:string;
 }
 
 export interface CreateTaskRequest {
